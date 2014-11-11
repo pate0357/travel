@@ -50,13 +50,13 @@ img
 */
 #departure_dt
 {
-background-image: url(/image/calendar-3x.png);
+background-image: url(../image/calendar-3x.png);
 background-repeat: no-repeat;
 background-position: 2%;    
 }
 #return_dt
 {
-    background-image: url(/image/calendar-3x.png);
+    background-image: url(../image/calendar-3x.png);
 background-repeat: no-repeat;
     background-position: 2%;
 
@@ -64,28 +64,28 @@ background-repeat: no-repeat;
 }
 #departure
 {
-     background-image: url(/image/map-marker-3x.png);
+     background-image: url(../image/map-marker-3x.png);
 background-repeat: no-repeat;
     background-position: 2%;
 
 }
 #destination
 {
-     background-image: url(/image/map-marker-3x.png);
+     background-image: url(../image/map-marker-3x.png);
 background-repeat: no-repeat;
     background-position: 2%;
 
 }
 #num_adults
 {
-        background-image: url(/image/people-3x.png);
+        background-image: url(../image/people-3x.png);
 background-repeat: no-repeat;
     background-position: 2%;
 
 }
 #textInput
 {
-           background-image: url(/image/tag-3x.png);
+           background-image: url(../image/tag-3x.png);
 background-repeat: no-repeat;
     background-position: 2%;
 
