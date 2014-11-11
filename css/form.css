@@ -19,7 +19,7 @@ h1{
 }
 body {
     
-   background-color: rgba(127,123,54,0.4);  
+   background-color: rgba(229,221,68,0.4);  
   
   }
 h2{
@@ -35,11 +35,11 @@ p{
 				Layout
 *******************************************/
 .wrapper{
-  background-color: rgba(127,124,75,0.4);  
+  background-color: rgba(178,171,32,0.4);  
 	
 }
 .masthead{
-	background-color: rgba(127,123,54,0.4);
+	background-color: rgba(108,212,255,0.4);
 }
 /*
 img
@@ -81,7 +81,7 @@ background-repeat: no-repeat;
         background-image: url(../image/people-3x.png);
 background-repeat: no-repeat;
     background-position: 2%;
-
+   
 }
 #textInput
 {
@@ -92,7 +92,7 @@ background-repeat: no-repeat;
 }
 .main{
     
-   background-color: rgba(127,123,54,0.4);
+  background-color: rgba(108,212,255,0.4);
     
     
 	
@@ -193,7 +193,12 @@ input[type=reset]{
     h2{
         margin-bottom: 3%;
     }
-    
+     #price
+    {
+       margin-left: 2%;
+       margin-top: 1%;    
+    }
+   
     
 
     .formBox
@@ -252,7 +257,12 @@ input[type=date]:hover {
     h2{
         margin-bottom: 3%;
     }
-    
+     #price
+    {
+       margin-left: 2%;
+        margin-top: 1%;
+    }
+   
     
 
     .formBox
@@ -319,7 +329,8 @@ input[type=date]:hover {
     }
     #price
     {
-        
+       margin-left: 2%;
+        margin-top: 1%;
     }
     
 
