@@ -1,0 +1,393 @@
+
+/*******************************************
+				Defaults
+
+Remember to use something like type-scale.com 
+to get your font sizes
+*******************************************/
+*{
+	padding:0;
+	margin: 0;
+}
+html,body{
+/*background-color: black;*/
+}
+h1{
+ text-align: center;
+ font-size: 300%;
+ color: white;       
+}
+body {
+    
+   background-color: rgba(127,123,54,0.4);  
+  
+  }
+h2{
+    color: white;
+    
+
+}
+p{
+
+}
+
+/*******************************************
+				Layout
+*******************************************/
+.wrapper{
+  background-color: rgba(127,124,75,0.4);  
+	
+}
+.masthead{
+	background-color: rgba(127,123,54,0.4);
+}
+/*
+img
+{
+ height: 20%;
+ resize: both;    
+}
+*/
+#departure_dt
+{
+background-image: url(/image/calendar-3x.png);
+background-repeat: no-repeat;
+background-position: 2%;    
+}
+#return_dt
+{
+    background-image: url(/image/calendar-3x.png);
+background-repeat: no-repeat;
+    background-position: 2%;
+
+    
+}
+#departure
+{
+     background-image: url(/image/map-marker-3x.png);
+background-repeat: no-repeat;
+    background-position: 2%;
+
+}
+#destination
+{
+     background-image: url(/image/map-marker-3x.png);
+background-repeat: no-repeat;
+    background-position: 2%;
+
+}
+#num_adults
+{
+        background-image: url(/image/people-3x.png);
+background-repeat: no-repeat;
+    background-position: 2%;
+
+}
+#textInput
+{
+           background-image: url(/image/tag-3x.png);
+background-repeat: no-repeat;
+    background-position: 2%;
+
+}
+.main{
+    
+   background-color: rgba(127,123,54,0.4);
+    
+    
+	
+}
+input[type=reset],
+input[type=submit]{
+    clear: both;
+   border-top: 1px solid #96d1f8;
+   background: #CCC557 ;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #CCC557, #7F7B36);
+   background: -moz-linear-gradient(top, #CCC557, #7F7B36));
+   background: -ms-linear-gradient(top, #CCC557, #7F7B36));
+   background: -o-linear-gradient(top, #CCC557, #7F7B36));
+   padding: 10px 20px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+input[type=reset]:hover,
+input[type=submit]:hover {
+   border-top-color: #CCC557;
+   background: #CCC557;
+   color: #ccc;
+   }
+input[type=reset]:active,
+input[type=submit]:active {
+   border-top-color: #7F7B36;
+   background: #7F7B36;
+   }
+
+
+.foot{
+    clear: both;
+    height: 15%;
+    color: white;
+	
+}
+
+
+/*******************************************
+				Form Styles
+*******************************************/
+
+
+.col
+{
+   
+}
+
+
+
+.buttons{
+	
+}
+
+label{
+	color: white;
+}
+.formBox{
+    
+    
+}
+input[type=text],
+input[type=number],
+input[type=date]{
+   color:black;
+}
+
+
+
+
+input[type=submit],
+input[type=reset]{
+	
+}
+@media all and (max-width: 499px) 
+{
+  
+    .col
+{
+    float: left;
+    margin-top: 3%;
+}
+.buttons{
+    clear: both;
+  
+}
+    h2{
+        margin-bottom: 3%;
+    }
+    
+    
+
+    .formBox
+    { 
+      float: left;  
+       
+    }
+    label{
+	margin-left: 4%;
+        
+    color: white;
+    }
+    input[type=text],
+input[type=number],
+input[type=date]
+    {
+    margin-top: 3%;    
+     margin-left: 10%;
+        
+         
+    }
+    input[type=text],
+input[type=number],
+input[type=date]{
+    background: #F1F1F1;
+    
+    width: 250px;
+    padding: 6px 15px 6px 35px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #ccc inset;
+    transition: 500ms all ease;
+    outline: 0;
+    margin-top: 4%;
+}
+input[type=text]:hover,
+input[type=number]:hover,
+input[type=date]:hover {
+     width: 260px;
+}
+    
+
+}
+
+@media all and (min-width: 500px) and (max-width: 780px)
+{
+       .col
+{
+    float: left;
+    margin-top: 3%;
+    width: 50%;
+}
+.buttons{
+    clear: both;
+  
+}
+    h2{
+        margin-bottom: 3%;
+    }
+    
+    
+
+    .formBox
+    { 
+      float: left;
+        width: 50%;
+        
+        
+       
+    }
+    label{
+	margin-left: 4%;
+        
+    color: white;
+    }
+    input[type=text],
+input[type=number],
+input[type=date]
+    {
+    margin-top: 2%;    
+     margin-left: 5%;
+        
+         
+    }
+    input[type=text],
+input[type=number],
+input[type=date]{
+    background: #F1F1F1;
+    
+    width: 60%;
+    padding: 6px 15px 6px 35px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #ccc inset;
+    transition: 500ms all ease;
+    outline: 0;
+    margin-top: 4%;
+}
+input[type=text]:hover,
+input[type=number]:hover,
+input[type=date]:hover {
+     width: 62%;
+}
+    
+
+}
+@media all and  (min-width: 780px)
+{
+       .col
+{
+    float: left;
+    margin-top: 2%;
+    width: 25%;
+    
+    
+    
+    
+}
+.buttons{
+    
+  
+}
+    h2{
+        margin-bottom: 3%;
+    }
+    #price
+    {
+        
+    }
+    
+
+    .formBox
+    { 
+      float: left;
+        width: 25%;
+        
+        
+       
+    }
+    label{
+	margin-left: 4%;
+        
+    color: white;
+    }
+    input[type=text],
+input[type=number],
+input[type=date]
+    {
+    margin-top: 2%;    
+     margin-left: 5%;
+        
+         
+    }
+    input[type=text],
+input[type=number],
+input[type=date]{
+    background: #F1F1F1;
+    
+    width: 60%;
+    padding: 6px 15px 6px 35px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #ccc inset;
+    transition: 500ms all ease;
+    outline: 0;
+    margin-top: 4%;
+}
+input[type=text]:hover,
+input[type=number]:hover,
+input[type=date]:hover {
+     width: 62%;
+}
+    
+
+}
+ 
+/*
+
+#departure {
+    background: #333;
+    color: #ccc;
+    width: 250px;
+    padding: 6px 15px 6px 35px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #ccc inset;
+    transition: 500ms all ease;
+    outline: 0;
+}
+
+#departure:hover {
+    width: 270px;  
+*/
+
+</style>
+
+
+/*******************************************
+				Image Styles
+*******************************************/
+
